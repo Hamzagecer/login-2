@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background: url(./img/der.jpg);
+}
+
+.profil {
+  box-shadow: 0 4px 8px 0;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 19px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: black;
+  background-color: white;
+  text-align: center;
+  cursor: pointer;
+  width: 520px;
+  font-size: 18px;
+  border: 1px solid white;
+  border-radius: 50px 20px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 23px;
+  color: black;
+  top: 28px;
+}
+
+button:hover,
+a:hover {
+  opacity: 0.7;
+  color: rgb(218, 58, 19);
+}
+
+.top {
+  width: 520px;
+  height: 400px;
+  background-color: white;
+  text-align: center;
+  position: relative;
+  bottom: 110px;
+  left: 40px;
+  border: 1px solid white;
+  border-radius: 50px 20px;
+  margin: 30px 0;
+}
+.top-alt{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 520px;
+  height: 60px;
+
+}
+.top #circle{
+  right: 160px;
+  bottom: 395px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  position: absolute;
+  border: white 3px solid;
+  background-color:white;
+
+
+}
+
+
+
+.middle {
+  display: flex;
+  width: 520px;
+  height: 300px;
+  background-color: white;
+  text-align: center;
+  position: relative;
+  bottom: 80px;
+  left: 40px;
+  border: 1px solid white;
+  border-radius:50px 20px;
+ 
+}
+
+.first {
+  font-family: 'Lobster Two', cursive;
+}
+
+.second {
+  font-family: 'Potta One', cursive;
+}
+
+.third {
+  font-family: 'Mrs Saint Delafield', cursive;
+}
+
+.middle .li_wrap {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.middle .li_wrap .icon {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(13, 159, 243);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+img {
+  width: 100%;
+}
+
